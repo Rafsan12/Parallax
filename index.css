@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: jost;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+p {
+  font-size: 30px;
+  color: cornsilk;
+  font-weight: 500;
+  font-style: italic;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./image/7128051.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  scroll-behavior: auto;
+}
+
+.section-2 {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./image/ThanitDecember_28.jpg");
+}
+
+.section-3 {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./image/thanitjanuary2022_46.jpg");
+}
